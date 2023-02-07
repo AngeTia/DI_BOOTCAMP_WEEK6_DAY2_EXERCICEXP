@@ -9,23 +9,23 @@
     <body>
         <h1>Exercise_3</h1>
         <?php 
-            $firstNote = 15;
-            $secondNote = 20;
-            $sumNote = $firstNote + $secondNote;
+            $first_note = 15;
+            $second_note = 20;
+            $sum_contain = $first_note + $second_note;
             
-            if ( $sumNote >= 0.06) 
+            if ( $sum_contain >= 0.06) 
             {
                 echo "grade will be First Division"; 
             }
-            elseif ($sumNote >= 0.45 && $sumNote < 0.59)
+            elseif ($sum_contain >= 0.45 && $sum_contain < 0.59)
             {
                 echo "grade will be Second Division";
             }
-            elseif($numNote >= 0.33 && $numNote < 0.44)
+            elseif($sum_contain >= 0.33 && $sum_contain < 0.44)
             {
                 echo "grade will be Third Division";
             }
-            elseif($numNote < 0.33)
+            elseif($sum_contain < 0.33)
             {
                 echo"student will be Fail.";
             }

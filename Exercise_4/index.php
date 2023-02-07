@@ -37,8 +37,7 @@
                 break;
                 default: 
                     echo $role= ' le nombre invalide par défaut';
-                break;
-                        
+                break;                
             }
         ?>
         
