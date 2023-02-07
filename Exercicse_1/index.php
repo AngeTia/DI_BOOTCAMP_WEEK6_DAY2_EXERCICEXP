@@ -8,9 +8,9 @@
     </head>
     <body>
         <?php
-            $firstNumber = 20;
-            $secondNumber = 40;
-            $somme = $firstNumber + $secondNumber;
+            $first_number = 20;
+            $second_number = 40;
+            $somme = $first_number + $second_number;
             echo " la somme est :". $somme;
         ?>
     </body>
